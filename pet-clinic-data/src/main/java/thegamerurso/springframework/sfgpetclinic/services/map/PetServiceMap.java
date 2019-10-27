@@ -25,7 +25,7 @@ public class PetServiceMap extends AbstrctMapService<Pet,Long> implements CrudSe
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(),object);
+        return super.save(object);
     }
 
     @Override
