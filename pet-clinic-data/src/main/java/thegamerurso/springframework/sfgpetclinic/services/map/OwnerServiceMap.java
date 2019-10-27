@@ -1,10 +1,12 @@
 package thegamerurso.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import thegamerurso.springframework.sfgpetclinic.model.Owner;
 import thegamerurso.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstrctMapService<Owner,Long> implements OwnerService{
 
 

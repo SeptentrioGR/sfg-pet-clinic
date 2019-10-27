@@ -1,10 +1,12 @@
 package thegamerurso.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import thegamerurso.springframework.sfgpetclinic.model.Vet;
 import thegamerurso.springframework.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstrctMapService<Vet,Long> implements VetService
 {
     @Override

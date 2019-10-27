@@ -1,10 +1,13 @@
 package thegamerurso.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+@Service
 public abstract class AbstrctMapService<T,ID> {
 
     protected Map<ID,T> map = new HashMap<>();
