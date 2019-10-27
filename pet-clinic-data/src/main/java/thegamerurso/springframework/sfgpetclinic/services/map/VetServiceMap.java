@@ -1,11 +1,11 @@
 package thegamerurso.springframework.sfgpetclinic.services.map;
 
 import thegamerurso.springframework.sfgpetclinic.model.Vet;
-import thegamerurso.springframework.sfgpetclinic.services.CrudService;
+import thegamerurso.springframework.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstrctMapService<Vet,Long> implements CrudService<Vet,Long>
+public class VetServiceMap extends AbstrctMapService<Vet,Long> implements VetService
 {
     @Override
     public Set<Vet> findAll() {
