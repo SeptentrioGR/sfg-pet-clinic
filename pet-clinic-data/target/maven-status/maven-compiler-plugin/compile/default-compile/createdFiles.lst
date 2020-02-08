@@ -1,5 +1,14 @@
+thegamerurso\springframework\sfgpetclinic\services\VetService.class
+thegamerurso\springframework\sfgpetclinic\services\CrudService.class
+thegamerurso\springframework\sfgpetclinic\services\map\PetServiceMap.class
 thegamerurso\springframework\sfgpetclinic\model\Owner.class
 thegamerurso\springframework\sfgpetclinic\model\PetType.class
+thegamerurso\springframework\sfgpetclinic\services\OwnerService.class
+thegamerurso\springframework\sfgpetclinic\model\BaseEntity.class
+thegamerurso\springframework\sfgpetclinic\services\map\AbstrctMapService.class
+thegamerurso\springframework\sfgpetclinic\services\PetService.class
+thegamerurso\springframework\sfgpetclinic\services\map\OwnerServiceMap.class
 thegamerurso\springframework\sfgpetclinic\model\Vet.class
 thegamerurso\springframework\sfgpetclinic\model\Pet.class
 thegamerurso\springframework\sfgpetclinic\model\Person.class
+thegamerurso\springframework\sfgpetclinic\services\map\VetServiceMap.class
