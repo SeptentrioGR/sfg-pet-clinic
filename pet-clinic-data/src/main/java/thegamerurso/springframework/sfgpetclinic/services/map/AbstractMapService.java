@@ -6,7 +6,7 @@ import thegamerurso.springframework.sfgpetclinic.model.BaseEntity;
 import java.util.*;
 
 @Service
-public abstract class AbstrctMapService<T extends BaseEntity,ID extends Long> {
+public abstract class AbstractMapService<T extends BaseEntity,ID extends Long> {
 
     protected Map<Long,T> map = new HashMap<>();
 

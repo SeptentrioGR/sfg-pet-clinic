@@ -5,9 +5,8 @@ import thegamerurso.springframework.sfgpetclinic.model.PetType;
 import thegamerurso.springframework.sfgpetclinic.services.PetTypeService;
 
 import java.util.Set;
-
 @Service
-public class PetTypeMapService extends AbstrctMapService<PetType,Long> implements PetTypeService {
+public class PetTypeMapService extends AbstractMapService<PetType,Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {
         return super.findAll();

@@ -7,7 +7,7 @@ import thegamerurso.springframework.sfgpetclinic.services.VetService;
 import java.util.Set;
 
 @Service
-public class VetServiceMap extends AbstrctMapService<Vet,Long> implements VetService
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService
 {
     @Override
     public Set<Vet> findAll() {
