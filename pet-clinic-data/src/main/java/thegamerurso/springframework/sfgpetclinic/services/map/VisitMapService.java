@@ -1,10 +1,12 @@
 package thegamerurso.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import thegamerurso.springframework.sfgpetclinic.model.Visit;
 import thegamerurso.springframework.sfgpetclinic.services.VisitService;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit,Long> implements VisitService {
 
     @Override
@@ -31,6 +33,6 @@ public class VisitMapService extends AbstractMapService<Visit,Long> implements V
 
     @Override
     public void deleteById(Long id) {
-        super.findById(id);
+        super.deleteById(id);
     }
 }

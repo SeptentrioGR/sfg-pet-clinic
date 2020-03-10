@@ -3,10 +3,7 @@ package thegamerurso.springframework.sfgpetclinic.bootstrap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import thegamerurso.springframework.sfgpetclinic.model.*;
-import thegamerurso.springframework.sfgpetclinic.services.OwnerService;
-import thegamerurso.springframework.sfgpetclinic.services.PetTypeService;
-import thegamerurso.springframework.sfgpetclinic.services.SpecialityService;
-import thegamerurso.springframework.sfgpetclinic.services.VetService;
+import thegamerurso.springframework.sfgpetclinic.services.*;
 
 import java.time.LocalDate;
 
@@ -17,12 +14,18 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private  final SpecialityService specialityService;
+    private  final VisitService visitService;
     
-    public DataLoader(OwnerService ownerService,VetService vetService,PetTypeService petTypeService,SpecialityService specialityService){
+    public DataLoader(OwnerService ownerService,
+                      VetService vetService,
+                      PetTypeService petTypeService,
+                      SpecialityService specialityService,
+                      VisitService visitService){
             this.ownerService = ownerService;
             this.vetService = vetService;
             this.petTypeService = petTypeService;
             this.specialityService = specialityService;
+            this.visitService = visitService;
     }
 
     @Override
@@ -86,6 +89,13 @@ public class DataLoader implements CommandLineRunner {
         owner2.getPets().add(FionasCat);
 
         ownerService.save(owner2);
+
+        //Visit catVisit = new Visit();
+        //catVisit.setPet(FionasCat);
+       // catVisit.setDate(LocalDate.now());
+        //catVisit.setDescription("Sneezy Kitty");
+
+      //  visitService.save(catVisit);
 
         System.out.println("Loaded Owners....");
 
