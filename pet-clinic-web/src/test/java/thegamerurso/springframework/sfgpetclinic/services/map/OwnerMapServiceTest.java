@@ -2,7 +2,12 @@ package thegamerurso.springframework.sfgpetclinic.services.map;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import thegamerurso.springframework.sfgpetclinic.model.Owner;
+import thegamerurso.springframework.sfgpetclinic.repositories.PetRepository;
+import thegamerurso.springframework.sfgpetclinic.repositories.PetTypeRepository;
+import thegamerurso.springframework.sfgpetclinic.services.springdatajpa.OwnerSDJpaService;
 
 import java.util.Set;
 
@@ -10,15 +15,23 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class OwnerMapServiceTest {
 
+    @Mock
     OwnerMapService ownerMapService;
+    @Mock
+    PetRepository petRepository;
+    @Mock
+    PetTypeRepository petTypeRepository;
+    @InjectMocks
+    OwnerSDJpaService service;
+
     final Long ownerId = 1L;
     final String lastName = "Smith";
 
     @BeforeEach
     void setUp() {
+        Owner smith = service.findByLastName(("Smoth"));
         ownerMapService = new OwnerMapService(new PetTypeMapService(),new PetMapService());
         ownerMapService.save(Owner.builder().id(ownerId).lastName(lastName).build());
-
     }
 
     @Test
@@ -43,6 +56,7 @@ class OwnerMapServiceTest {
 
     }
 
+    @Test
     void saveNoId(){
         Owner savedOwner = ownerMapService.save(Owner.builder().build());
         assertNotNull(savedOwner);
