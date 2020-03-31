@@ -8,6 +8,7 @@ import thegamerurso.springframework.sfgpetclinic.services.OwnerService;
 import thegamerurso.springframework.sfgpetclinic.services.PetService;
 import thegamerurso.springframework.sfgpetclinic.services.PetTypeService;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
@@ -69,5 +70,10 @@ public class OwnerMapService extends AbstractMapService<Owner,Long> implements O
     @Override
     public Owner findByLastName(String lastName) {
         return this.findAll().stream().filter(owner -> owner.getLastName().equalsIgnoreCase(lastName)).findFirst().orElse(null);
+    }
+
+    @Override
+    public List<Owner> findAllByLastNameLike(String lastName) {
+        return null;
     }
 }
