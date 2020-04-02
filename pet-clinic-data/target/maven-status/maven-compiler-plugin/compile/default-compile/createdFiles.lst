@@ -29,12 +29,12 @@ thegamerurso\springframework\sfgpetclinic\model\PetType.class
 thegamerurso\springframework\sfgpetclinic\model\Vet$VetBuilder.class
 thegamerurso\springframework\sfgpetclinic\services\OwnerService.class
 thegamerurso\springframework\sfgpetclinic\model\Speciality$SpecialityBuilder.class
-thegamerurso\springframework\sfgpetclinic\services\SpecialityService.class
 thegamerurso\springframework\sfgpetclinic\services\springdatajpa\PetSDJpaService.class
 thegamerurso\springframework\sfgpetclinic\services\map\PetTypeMapService.class
 thegamerurso\springframework\sfgpetclinic\services\springdatajpa\VetSDJpaService.class
 thegamerurso\springframework\sfgpetclinic\model\PetType$PetTypeBuilder.class
 thegamerurso\springframework\sfgpetclinic\services\map\SpecialityMapService.class
+thegamerurso\springframework\sfgpetclinic\services\SpecialtyService.class
 thegamerurso\springframework\sfgpetclinic\model\Pet.class
 thegamerurso\springframework\sfgpetclinic\repositories\VisitRepository.class
 thegamerurso\springframework\sfgpetclinic\model\Person.class

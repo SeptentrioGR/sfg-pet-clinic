@@ -4,6 +4,7 @@ C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\PetTypeService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\PetService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\repositories\PetRepository.java
+C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\SpecialtyService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\map\AbstractMapService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\repositories\VetRepository.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\VisitService.java
@@ -17,7 +18,6 @@ C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\map\OwnerMapService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\springdatajpa\PetSDJpaService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\model\Visit.java
-C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\SpecialityService.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\model\Vet.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\repositories\OwnerRepository.java
 C:\Users\Petros\Documents\Repo\Java\sfg-pet-clinic\pet-clinic-data\src\main\java\thegamerurso\springframework\sfgpetclinic\services\CrudService.java
